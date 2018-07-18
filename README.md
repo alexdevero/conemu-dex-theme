@@ -6,6 +6,7 @@ Awesome color theme for ConEmu.
 
 * [Example](#example)
 * [Install](#install)
+* [Template](#template)
 * [Support this project](#support-this-project)
 * [Code of Conduct](#code-of-conduct)
 * [License](#license)

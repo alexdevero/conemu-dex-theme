@@ -4,11 +4,15 @@ Awesome color theme for ConEmu.
 
 ### Table of contents
 
+* [Example](#example)
 * [Install](#install)
-* [Usage](#usage)
 * [Support this project](#support-this-project)
 * [Code of Conduct](#code-of-conduct)
 * [License](#license)
+
+### Example
+
+<img src="https://cdn.rawgit.com/alexdevero/conemu-dex-theme/master/images/conemu-dex-theme.png" style="max-width: 100%" align="center">
 
 ### Install
 

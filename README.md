@@ -15,29 +15,29 @@ Awesome color theme for ConEmu.
 1) Open =ConEmu.xml=. Usually it is at  =~\AppData\Roaming=, where =~= is your home directory (=C:\Users\UserName=).
 2) Paste the color scheme at the end of palette settings part. It starts with the following:
 
-#+BEGIN_SRC xml
-  <key name="Colors" modified="2018-07-18 09:58:34" build="180626">
-    <value name="Count" type="long" data="1"/>
-    <key name="Palette1" modified="2018-07-18 09:58:34" build="180626">
-#+END_SRC
+```
+<key name="Colors" modified="2018-07-18 09:58:34" build="180626">
+  <value name="Count" type="long" data="1"/>
+  <key name="Palette1" modified="2018-07-18 09:58:34" build="180626">
+```
 
 3) If you do not have any custom color scheme, the xml key is not there. In ConEmu, go to =Settings= -> =Feature= -> =Colors= and generate a custom color theme by click on =Save= button and specify any name. Then =Colors= key will be automatically generated in your =ConEmu.xml=. You can overwrite it when you add new themes.
 
 4) Update the palette number (key name =PaletteX=) accordingly. For example, if you have 1 custom color palette already, it should be =Palette2= for the new one:
 
-#+BEGIN_SRC xml
-  <key name="Palette2" modified="2018-07-18 09:58:34" build="180626">
-#+END_SRC
+```
+<key name="Palette2" modified="2018-07-18 09:58:34" build="180626">
+```
 
 5) Make sure to increase the value for key name =Count= under key =Colors= as well. It should equal to the total number of pallets you have:
 
-#+BEGIN_SRC xml
-  <value name="Count" type="long" data="2"/>
-#+END_SRC
+```
+<value name="Count" type="long" data="2"/>
+```
 
 6) For example, the =Colors= part of your modified =ConEmu.xml= should look like this:
 
-#+BEGIN_SRC xml
+```
 <key name="Colors" modified="2018-07-18 09:58:34" build="180626">
   <value name="Count" type="long" data="2"/>
   <key name="Palette1" modified="2018-07-18 09:58:34" build="180626">
@@ -53,13 +53,13 @@ Awesome color theme for ConEmu.
     <value name="ColorTable21" type="dword" data="00e7fdfd"/>
   </key>
 </key>
-#+END_SRC
+```
 
 ### Template
 The following is the template for color schemes with the default colors that
 you can use. (It is also in =dex-theme.xml=):
 
-#+BEGIN_SRC xml
+```
 <key name="Palette1" modified="2018-07-18 09:58:34" build="180626">
   <value name="Name" type="string" data="DeX"/>
   <value name="TextColorIdx" type="hex" data="10"/>
@@ -83,7 +83,7 @@ you can use. (It is also in =dex-theme.xml=):
   <value name="ColorTable14" type="dword" data="000089b5"/>
   <value name="ColorTable15" type="dword" data="00e3f6fd"/>
 </key>
-#+END_SRC
+```
 
 ### Support this project
 

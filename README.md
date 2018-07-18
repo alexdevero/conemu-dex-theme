@@ -12,7 +12,7 @@ Awesome color theme for ConEmu.
 
 ### Example
 
-<img src="https://cdn.rawgit.com/alexdevero/conemu-dex-theme/master/images/conemu-dex-theme.png" style="max-width: 100%" align="center">
+<img src="https://cdn.rawgit.com/alexdevero/conemu-dex-theme/master/img/conemu-dex-theme.png" style="max-width: 100%" align="center">
 
 ### Install
 
